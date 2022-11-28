@@ -414,7 +414,7 @@
     text-align: center;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .container .right__sidebar .image {
     width: 100%;
   }
