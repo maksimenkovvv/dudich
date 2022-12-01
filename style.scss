@@ -159,7 +159,20 @@
             }
           }
 
+          .about__info__location__title {
+            text-align: center;
+          }
+
+          .about__info__location {
+            @extend %flex_center;
+            .about__info__location__map {
+              margin-top: 20px;
+              width: 80%;
+            }
+          }
+
           .about__info__welcome {
+            margin-top: 50px;
             margin-bottom: 50px;
             text-align: center;
 
@@ -300,6 +313,7 @@
           }
 
           .popup__form-button {
+            cursor: pointer;
             color: white;
             background-color: rgb(49, 45, 255);
           }
@@ -438,6 +452,12 @@
           .about__info {
             .about__info__photos {
               margin: 50px 0;
+            }
+
+            .about__info__location {
+              .about__info__location__map {
+                width: 100%;
+              }
             }
           }
         }

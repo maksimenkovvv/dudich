@@ -11,7 +11,7 @@
   height: 100%;
 }
 
-.container .right__sidebar .popup-bg .popup .popup__form, .container .right__sidebar .card__container .card .card__image-container, .container .right__sidebar .card__container, .container .right__sidebar .about__container .about .about__info .about__info__photos .about__indo__photos__image, .container .right__sidebar .about__container .about .about__logo, .container .right__sidebar .main__container .main .main__info .main__info__about .main__info__about__pool, .container .right__sidebar .main__container .main .main__info .main__info__spa, .container .right__sidebar .menu .menu__nav, .container .right__sidebar .menu {
+.container .right__sidebar .popup-bg .popup .popup__form, .container .right__sidebar .card__container .card .card__image-container, .container .right__sidebar .card__container, .container .right__sidebar .about__container .about .about__info .about__info__location, .container .right__sidebar .about__container .about .about__info .about__info__photos .about__indo__photos__image, .container .right__sidebar .about__container .about .about__logo, .container .right__sidebar .main__container .main .main__info .main__info__about .main__info__about__pool, .container .right__sidebar .main__container .main .main__info .main__info__spa, .container .right__sidebar .menu .menu__nav, .container .right__sidebar .menu {
   display: flex;
   justify-content: center;
 }
@@ -127,7 +127,15 @@
   gap: 50px;
   margin: 90px 0 90px 0;
 }
+.container .right__sidebar .about__container .about .about__info .about__info__location__title {
+  text-align: center;
+}
+.container .right__sidebar .about__container .about .about__info .about__info__location .about__info__location__map {
+  margin-top: 20px;
+  width: 80%;
+}
 .container .right__sidebar .about__container .about .about__info .about__info__welcome {
+  margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -260,6 +268,7 @@
   text-indent: 10px;
 }
 .container .right__sidebar .popup-bg .popup .popup__form .popup__form-button {
+  cursor: pointer;
   color: white;
   background-color: rgb(49, 45, 255);
 }
@@ -369,6 +378,9 @@
   }
   .container .right__sidebar .about__container .about .about__info .about__info__photos {
     margin: 50px 0;
+  }
+  .container .right__sidebar .about__container .about .about__info .about__info__location .about__info__location__map {
+    width: 100%;
   }
   .container .right__sidebar .card__container {
     width: 100%;
